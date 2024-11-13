@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE RETRO FRAMES</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section home">
+        <div class="overlay">
+            <h1>THE RETRO FRAMES</h1>
+            <p>Preserving the beauty of classic designs</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <h2>About Us</h2>
+        <p>We are passionate about preserving the timeless beauty of vintage architecture. With decades of experience, we bring new life to classic buildings, merging history with modern functionality. We believe in pushing boundaries while respecting the environment. Through sustainabe practices, advanced technology, and a client-centered approach, we aim to leave a lasting, positive impact on communities and the built environment. Our designs are not just buildings, they are experience that foster connection, innovation, and well-being. </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <h2>Our Projects</h2>
+        <div class="project-gallery">
+            <div class="project-card">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Victorian Mansion</h3>
+                <p>They are famous for large staircase, big mantles, big fireplace, and closed-off rooms</p>
+            </div>
+            <div class="project-card">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>French Villa</h3>
+                <P>It is known to be a luxurious detached house, often with large rooms, high ceilings, a swimmimg pool and a garden.</P>
+            </div>
+            <div class="project-card">
+                <img src="project3.jpg" alt="Project 3">
+                <h3>Gothic Chruch</h3>
+                <p>They have a pointed arches, flying buttresses, tri-portal west facades, rib vaults, and rose windows</p>
+            </div>
+            <div class="project-card">
+                <img src="project4.jpg" alt="Project 4">
+                <h3>Italianate</h3>
+                <p>It is 19th century architectural style that was inspired by Italian Re-naissance architecture and the picturesque movement</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
